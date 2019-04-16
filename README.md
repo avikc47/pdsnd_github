@@ -20,4 +20,4 @@ new_york_city.csv
 washington.csv
 
 ### Credits
-Udacity
+Udacity & my mentors
