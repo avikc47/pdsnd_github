@@ -25,7 +25,8 @@ def get_filters():
     print('\nHello! Let\'s explore some US bikeshare data!')
  
  
-    # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
+    # get user input for city (chicago, new york city, washington). 
+    #HINT: Use a while loop to handle invalid inputs
     city = ""
  
     while True:
@@ -275,7 +276,7 @@ def main():
  
         restart = input('\nWould you like to restart?  (Yes or No)\n> ')
         if restart.lower() == 'yes':
-            # detects user os
+            # detects the user os
             os_type = platform.system()
             # clears screen: OSX & Linux
             if os_type in ('Darwin', 'Linux'):
