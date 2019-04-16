@@ -276,7 +276,7 @@ def main():
  
         restart = input('\nWould you like to restart?  (Yes or No)\n> ')
         if restart.lower() == 'yes':
-            # detects user os
+            # detects the user os
             os_type = platform.system()
             # clears screen: OSX & Linux
             if os_type in ('Darwin', 'Linux'):
