@@ -1,4 +1,4 @@
-Describe what your project is about and what it does
+
 ### Date created
 12/04/2019
 
