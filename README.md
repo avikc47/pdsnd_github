@@ -12,6 +12,7 @@ Thanks to the rise in information technologies, it is easy for a user of the sys
 
 In this project, I am using data provided by Motivate, a bike share system provider for many major cities in the United States, for insights into uncover bike share usage patterns. 
 
+The insights that would be garnered from the project will help the organisation to determine where they would need to put more bikes and at what time. 
 
 ### Files used
 chicago.csv
