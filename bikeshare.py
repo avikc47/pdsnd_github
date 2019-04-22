@@ -274,7 +274,7 @@ def main():
  
         """ This code block asks user to restart program and clears screen if yes """
  
-        restart = input('Would you like to restart?  (Yes or No)\n> ')
+        restart = input('\n Would you like to restart?  (Yes or No)\n> ')
         if restart.lower() == 'yes':
             # detects the user os
             os_type = platform.system()
