@@ -201,7 +201,7 @@ def user_stats(df):
     print('User Types: \n{}\n'.format(user_types))
  
  
-    """ This try/exception code block handles KeyErrors for Washington filter """
+    """ Here the try/exception code block handles the KeyErrors for Washington filter """
  
     try:
         # washington.csv does not have 'Gender' column.  Cannot display info
@@ -272,14 +272,14 @@ def main():
         user_stats(df)
         raw_data(df)
  
-        """ Asks user to restart program and clears screen if yes """
+        """ This code block asks user to restart program and clears screen if yes """
  
-        restart = input('\nWould you like to restart?  (Yes or No)\n> ')
+        restart = input('Would you like to restart?  (Yes or No)\n> ')
         if restart.lower() == 'yes':
             # detects the user os
             os_type = platform.system()
             # clears screen: OSX & Linux
-            if os_type in ('Darwin', 'Linux'):
+            if os_type in ('Darwin', 'Linux','Fedora','CentOS','Ubuntu'):
                 os.system('clear')
             # clears screen: Windows    
             elif os_type == 'Windows':
